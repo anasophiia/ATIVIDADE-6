@@ -1,0 +1,12 @@
+programa {
+	funcao inteiro somar(inteiro a, inteiro b) {
+		retorne a + b
+	}
+  funcao inicio() {
+		inteiro resultado
+
+		resultado = somar(5, 3)
+
+		escreva("Resultado da soma: ", resultado)
+	}
+}
